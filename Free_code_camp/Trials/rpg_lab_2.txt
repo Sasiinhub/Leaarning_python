@@ -1,0 +1,38 @@
+def create_character(character_name, strength, intelligence, charisma):
+    # Place the stats tuple here so it can read the function arguments
+    stats = (strength, intelligence, charisma)
+    
+    # 1. Character Name Validations
+    if not isinstance(character_name, str):
+        return 'The character name should be a string.'
+    elif character_name == '':
+        return 'The character should have a name.'
+    elif len(character_name) > 10:
+        return 'The character name is too long.'
+    elif ' ' in character_name:
+        return 'The character name should not contain spaces.'
+        
+    # 2. Stats Validations
+    # Strict integer check (blocks booleans too)
+    elif not all(isinstance(s, int) and type(s) is not bool for s in stats):
+        return 'All stats should be integers.'
+    elif strength < 1 or intelligence < 1 or charisma < 1:
+        return 'All stats should be no less than 1.'
+    elif strength > 4 or intelligence > 4 or charisma > 4:
+        return 'All stats should be no more than 4.'
+    elif sum(stats) != 7:
+        return 'The character should start with 7 points.'
+        
+    # 3. Generating the Visual Output
+    else:
+        full_dot = '●'
+        empty_dot = '○'
+        
+        # Calculate full dots and empty dots for each stat
+        str_dots = (full_dot * strength) + (empty_dot * (10 - strength))
+        int_dots = (full_dot * intelligence) + (empty_dot * (10 - intelligence))
+        cha_dots = (full_dot * charisma) + (empty_dot * (10 - charisma))
+        
+        # Combine everything into a 4-line string using newlines (\n)
+        result = f"{character_name}\nSTR {str_dots}\nINT {int_dots}\nCHA {cha_dots}"
+        return result
