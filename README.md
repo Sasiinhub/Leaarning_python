@@ -1,4 +1,4 @@
-# Leaarning_python
+# Learning_python
 
 Personal learning repository for Python. This repo contains my practice code, exercises, lab solutions, notes, and short explanations created while following online courses and tutorials (freeCodeCamp, Cisco materials, and ChatGPT-assisted study). The materials here are my own work and reflect my learning progress and struggles.
 
