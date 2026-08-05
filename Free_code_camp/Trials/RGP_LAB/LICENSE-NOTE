@@ -1,0 +1,17 @@
+This folder contains personal practice work and solutions created by Sasiinhub for learning purposes.
+
+What this folder contains
+- My code solutions, notes, and explanations (created by me).
+- Links to official curricula/resources where relevant (no proprietary files included).
+
+Licensing
+- Code files I create here: MIT (see /LICENSE in repo root). Add SPDX headers to each source file, e.g.:
+  # SPDX-License-Identifier: MIT
+- Notes / written content I create here: CC BY 4.0 (see /LICENSE-CONTENT in repo root).
+
+Third-party content
+- I will NOT upload official freeCodeCamp or Cisco proprietary materials (slides, official PDFs, or answer keys).
+- If I include any third-party content, it will be explicitly listed in /ATTRIBUTIONS.md with the original license and link.
+
+Disclaimer
+- Completing exercises here does NOT grant official certifications from freeCodeCamp, Cisco, or any other provider.
