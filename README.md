@@ -32,9 +32,7 @@ This repository documents my learning and practice only. Completing or using the
 - I add attribution notes in files that are based on external challenges, e.g. `# Origin: inspired by freeCodeCamp challenge XYZ — original license: BSD-3-Clause — this file contains my solution and modifications.`
 
 ## Contact
-- Repo: https://github.com/Sasiinhub/Leaarning_python
+- Repo: https://github.com/Sasiinhub/Learning_python
 - Copyright (c) 2026 Sasiinhub
 
 ---
-
-If you want any wording changed, or a shorter/longer README, tell me and I’ll update it.
