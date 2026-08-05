@@ -1,0 +1,23 @@
+
+for this i try my best and the final i dont have any idea .. 
+"full_dot = '●' empty_dot = '○' 
+fun create_character(character_name, strength, intelligence, charisma): 
+    stats = (strength, intelligence, charisma) 
+    if not isinstence(character_name, str): 
+        return'The character name should be a string' 
+    elif charaacter_name == '': 
+        return 'The character should have a name' 
+    elif character_name >= 10: 
+        return 'The character name is too long' 
+    elif ' ' in character_name: 
+        return 'The character name should not contain spaces' 
+    elif isinstance(strength, str) or isinstance(intelligence, str) or isinstance(charisma, str): 
+        return 'All stats should be no integers' 
+    elif strength < 1 or intelligence < 1 or charisma < 1: 
+        return 'All stats should be no less than 1' 
+    elif not strength <= 4 or not intelligence <= 4 or not charisma <= 4:  
+        return 'All stats should be no more than 4' 
+    elif str(sum(stats))[-1] != '7':  
+        return 'The charater should start with 7 points' 
+    else: 
+        return: "
